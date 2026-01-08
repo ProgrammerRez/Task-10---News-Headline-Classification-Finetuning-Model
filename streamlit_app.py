@@ -60,7 +60,7 @@ if st.button("Classify"):
         # -------------------------
         # TOP PREDICTIONS
         # -------------------------
-        st.subheader("Predicted (Top 5)")
+        st.subheader("Predicted")
         top5 = dict(list(result.items())[:5])
         st.json(top5)
 
